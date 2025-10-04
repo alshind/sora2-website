@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sora 2 — Veo Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900">
+  <!-- HEADER -->
+  <header class="max-w-6xl mx-auto p-6 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="h-10 w-10 rounded-2xl bg-gradient-to-br from-indigo-400 to-sky-500 flex items-center justify-center text-white font-bold">S2</div>
+      <div>
+        <h1 class="text-xl font-semibold">Sora 2</h1>
+        <p class="text-xs text-slate-500">Veo-style video platform • Faceless, simple, fast</p>
+      </div>
+    </div>
+    <nav class="flex items-center gap-4">
+      <a class="text-sm hover:underline" href="#features">Mga Tampok</a>
+      <a class="text-sm hover:underline" href="#gallery">Gallery</a>
+      <a class="text-sm hover:underline" href="#contact">Contact</a>
+      <button class="ml-2 px-4 py-2 bg-indigo-500 text-white rounded-lg shadow">Mag-sign up</button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main class="max-w-6xl mx-auto px-6">
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-12">
+      <div>
+        <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">Sora 2 — ang iyong Veo platform para sa mabilis at madaling video publishing</h2>
+        <p class="mt-4 text-slate-600">Mag-upload, mag-edit at mag-share nang walang hassle. Idinisenyo para sa mga creators na gusto ng simpleng workflow at magandang look.</p>
+
+        <div class="mt-6 flex gap-3">
+          <button class="px-4 py-2 bg-indigo-500 text-white rounded-lg flex items-center gap-2 shadow"><span>▶</span> Demo</button>
+          <button class="px-4 py-2 border rounded-lg">Alamin pa</button>
+        </div>
+
+        <div class="mt-6 grid grid-cols-3 gap-3 text-sm text-slate-500">
+          <div class="p-3 bg-white rounded-lg shadow-sm">
+            <div class="font-semibold">Mabilis</div>
+            <div class="text-xs">Instant na preview at one-click publish</div>
+          </div>
+          <div class="p-3 bg-white rounded-lg shadow-sm">
+            <div class="font-semibold">Madali</div>
+            <div class="text-xs">Simple UI para sa lahat ng level</div>
+          </div>
+          <div class="p-3 bg-white rounded-lg shadow-sm">
+            <div class="font-semibold">Secure</div>
+            <div class="text-xs">Private sharing at password access</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="order-first md:order-last">
+        <div class="shadow-lg rounded-xl overflow-hidden">
+          <div class="aspect-[16/9] bg-gradient-to-tr from-slate-800 to-slate-700 flex items-center justify-center relative">
+            <div class="text-white text-center">
+              <div class="mb-2 font-semibold">Sora 2 Demo</div>
+              <div class="text-xs opacity-80">(Ilagay ang iyong video file dito)</div>
+            </div>
+            <button class="absolute right-4 bottom-4 px-4 py-2 bg-indigo-500 text-white rounded-lg flex items-center gap-2 shadow"><span>▶</span> Play</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="py-10">
+      <h3 class="text-2xl font-bold">Mga Tampok</h3>
+      <p class="text-slate-600 mt-2">Mga pinakasikat na feature na nagbibigay kapangyarihan sa mga creator.</p>
+
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div class="p-5 bg-white rounded-2xl shadow-sm">
+          <h4 class="font-semibold">One-click Publish</h4>
+          <p class="text-slate-500 text-sm mt-2">I-publish agad ang video sa web at social share link.</p>
+        </div>
+        <div class="p-5 bg-white rounded-2xl shadow-sm">
+          <h4 class="font-semibold">Auto Thumbnails</h4>
+          <p class="text-slate-500 text-sm mt-2">Smart thumbnails batay sa pinaka-engaging na frame.</p>
+        </div>
+        <div class="p-5 bg-white rounded-2xl shadow-sm">
+          <h4 class="font-semibold">Faceless Templates</h4>
+          <p class="text-slate-500 text-sm mt-2">Mga template ideal para sa faceless channel at automation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="py-10">
+      <h3 class="text-2xl font-bold">Gallery</h3>
+      <p class="text-slate-600 mt-2">Sample videos at thumbnails — placeholder grid para i-link ang iyong files.</p>
+
+      <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="bg-white rounded-xl overflow-hidden shadow-sm">
+          <div class="aspect-[16/9] bg-gradient-to-br from-slate-200 to-slate-300 flex items-center justify-center">Video 1 (placeholder)</div>
+          <div class="p-3">
+            <div class="font-semibold">Title ng Video 1</div>
+            <div class="text-xs text-slate-500 mt-1">Short description o tags</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl overflow-hidden shadow-sm">
+          <div class="aspect-[16/9] bg-gradient-to-br from-slate-200 to-slate-300 flex items-center justify-center">Video 2 (placeholder)</div>
+          <div class="p-3">
+            <div class="font-semibold">Title ng Video 2</div>
+            <div class="text-xs text-slate-500 mt-1">Short description o tags</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl overflow-hidden shadow-sm">
+          <div class="aspect-[16/9] bg-gradient-to-br from-slate-200 to-slate-300 flex items-center justify-center">Video 3 (placeholder)</div>
+          <div class="p-3">
+            <div class="font-semibold">Title ng Video 3</div>
+            <div class="text-xs text-slate-500 mt-1">Short description o tags</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT / CTA -->
+    <section class="py-12 grid md:grid-cols-2 gap-6 items-center">
+      <div>
+        <h3 class="text-2xl font-bold">Bakit Sora 2?</h3>
+        <p class="text-slate-600 mt-3">Dinisenyo para sa mabilisang content production at para sa mga creator na gusto ng simpleng pipeline: record, auto-process, publish.</p>
+
+        <ul class="mt-4 list-disc pl-5 text-slate-600">
+          <li>Optimized para sa mobile-first viewers</li>
+          <li>Supports batch uploads at scheduled publishing</li>
+          <li>Simple analytics dashboard</li>
+        </ul>
+
+        <div class="mt-6">
+          <button class="px-4 py-2 bg-indigo-500 text-white rounded-lg shadow">Subukan Libre</button>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-indigo-50 to-sky-50 p-6 rounded-xl">
+        <h4 class="font-semibold">Integrations</h4>
+        <div class="mt-4 grid grid-cols-2 gap-3 text-sm text-slate-600">
+          <div class="p-3 bg-white rounded-lg shadow-sm">YouTube</div>
+          <div class="p-3 bg-white rounded-lg shadow-sm">TikTok</div>
+          <div class="p-3 bg-white rounded-lg shadow-sm">Facebook</div>
+          <div class="p-3 bg-white rounded-lg shadow-sm">Google Drive</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-10">
+      <h3 class="text-2xl font-bold">Contact</h3>
+      <p class="text-slate-600 mt-2">May tanong? I-message lang kami.</p>
+
+      <form class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <input class="p-3 border rounded-md" placeholder="Pangalan" />
+        <input class="p-3 border rounded-md" placeholder="Email" />
+        <textarea class="p-3 border rounded-md md:col-span-2" rows="4" placeholder="Mensaheng gusto mong ipadala"></textarea>
+        <div class="md:col-span-2">
+          <button type="submit" class="px-4 py-2 bg-indigo-500 text-white rounded-lg shadow">Send</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 text-center text-sm text-slate-500">
+      © <script>document.write(new Date().getFullYear())</script> Sora 2 • Built for Veo-style creators
+    </footer>
+  </main>
+</body>
+</html>
